@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>18114715 HAN AREUM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{box-sizing:border-box;}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@meta only screen and (max-width:300px) {
+
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 40px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    background-color:white;
+    border: 40px;
+    padding:15px;
+}
+.menu {
+    padding: 30px;
+    background-color: yellow;
+    color: white;
+
+}
+.menu1 {
+    background-color: white;
+    color: violet;
+
+}
+
+</style>
+<body style="background-color:violet">
+  <div class="header">
+     <h1> Introduce Myself </h1>
+  </div>
+  <div class="menu">
+  <div class="col-3 col-s-3"> 
+   <img src="a.jpeg" width="300" height="350">
+  </div>
+  <div class="col-4 col-s-4 menu1">
+    <h2>NAME</h2>
+    <h2>Student Number</h2>
+    <h2>Major</h2>
+    <h2>Address</h2>
+  </div>
+  <div class="col-5 col-s-5 menu1">
+    <h2>Han Areum</h2>
+    <h2>18114715</h2>
+    <h2>IT공학부<h2>
+    <h2>Dong-gu, Daegu, Republic of Korea</h2>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
